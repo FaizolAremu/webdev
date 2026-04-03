@@ -179,3 +179,56 @@ body{
 .register a{
     color: rgb(60,82,165);
 }
+
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.designweb{
+    width: 50%;
+}
+
+.designweb h1{
+    font-size: 64px;
+    color: #202124;
+    font-weight: 700px;
+}
+
+.designweb p{
+    color: #202124;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+.designweb-img img{
+    max-width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .main-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+    .designweb{
+        width: 100%;
+        padding: 20px;
+    }
+    .designweb-img img{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-section{
+        flex-direction: row;
+
+    }
+
+    
+}
