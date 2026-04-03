@@ -5,13 +5,18 @@
     font-family: "Google Sans", sans-serif;
 }
 
+body{
+    background-color: #FFFFFF;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
-    /* padding: 20px 60px; */
+    padding: 2px 20px;
     width: 100%;
+
 }
 
 .bars-btn{
@@ -24,6 +29,7 @@
     font-size: 15px;
     color: black;
     font-weight: 200;
+    opacity: 0.8;
 }
 
 .navbar2{
@@ -43,6 +49,10 @@
     background-color: #F0F0F4;
     font-size: 16px;
     
+}
+
+.search-btn strong{
+    opacity: 0.9;
 }
 
 .search-btn span{
@@ -147,3 +157,25 @@
     }
 }
 
+
+.guidance{
+    background-color: rgb(26,115,232);
+    padding: 25px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.register{
+     background-color: rgb(232,240,254);
+    padding: 25px;
+    color: rgb(60,82,165);
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.register a{
+    color: rgb(60,82,165);
+}
