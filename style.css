@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    /* padding: 20px 60px; */
+    width: 100%;
+}
+
+.bars-btn{
+    display: none;
+}
+
+.navlink a{
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 200;
+}
+
+.navbar2{
+    margin: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.search-btn{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    background-color: #F0F0F4;
+    font-size: 16px;
+    
+}
+
+.search-btn span{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.sun-btn{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 40%;
+}
+
+.sun-btn:hover{
+    background-color: #F0F0F4;
+}
+
+.display-search{
+    display: none;
+}
+
+.English-btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: transparent;
+    border: 1px solid #F0F0F4;
+    border-radius: 5px;
+}
+
+.English-btn:hover{
+    background-color: #F0F0F4;
+}
+
+.signin-btn{
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+.signin-btn:hover{
+    background-color: #F0F0F4;
+}
+
+@media screen and (max-width: 768px) {
+    .navlink a,
+    .search-btn,
+    .English-btn{
+        display: none;
+    }
+
+    /* .search-btn i{
+        display: block;
+    } */
+    .navbar{
+        padding: 5px 10px;
+        
+    }
+    .bars-btn{
+        display: block;
+        background-color: transparent;
+        align-items: center;
+        font-size: 20px;
+        margin-right: 10px;
+
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .search-btn {
+    display: flex;
+  }
+
+  .English-btn {
+    display: flex;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+  .navlink a{
+    display: none;
+  }
+  #show{
+    display: inline-flex;
+  }
+}
+@media screen and (min-width:1280px) {
+    .navlink a{
+        display: inline-flex;
+    }
+}
+
