@@ -182,19 +182,16 @@ body{
 
 .main-section{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     margin-top: 50px;
-}
-
-.designweb{
-    width: 50%;
+    padding: 40px 100px;
 }
 
 .designweb h1{
     font-size: 64px;
     color: #202124;
     font-weight: 700px;
+    
 }
 
 .designweb p{
@@ -202,6 +199,8 @@ body{
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
 }
 
 
@@ -210,10 +209,14 @@ body{
 }
 
 @media screen and (max-width:768px) {
+    .div1{
+        width: 100%;
+    }
     .main-section{
         flex-direction: column-reverse;
         align-items: center;
         gap: 20px;
+        padding: 20px;
     }
     .designweb{
         width: 100%;
@@ -233,16 +236,14 @@ body{
 
 .content-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    padding: 40px 100px;
     gap: 10px;
-    /* width: 75%; */
+
 }
 
 .content-div{
-    /* width: 25%; */
     padding-top: 70px;
     margin-bottom: 20px;
     text-align: center;
@@ -326,10 +327,279 @@ body{
     .content-section{
         flex-direction: column;
         align-items: center;
+        padding: 20px;
+        gap: 20px;
         width: 100%;
     }
     .content-div{
        max-width: 250px;
     }
 
+}
+
+.learning{
+    background-color: #F5F6F7;
+    padding: 40px 100px;
+}
+
+.web-platform{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.platform-section{
+    text-align: justify;
+}
+
+.platform-section h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.platform-section p{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 750px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.platform-btn button{
+     padding: 12px 25px;
+    font-size: 15px;
+    color: #1A73E8;
+    background-color: #ffffff;
+    border: 3px solid #185abc;
+    border-radius: 20px;
+    transition: 3s;
+}
+
+.platform-btn button:hover{
+    border: none;
+    background-color: transparent;
+}
+
+.learning-section{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 0 15px;
+   
+    
+}
+
+.learning-img{
+    padding-top: 60px;
+}
+
+.learning-img a i{
+    color: #0288d1;
+    font-size: 30px;
+    background-color: #F5F6F7;
+    padding: 10px 15px;
+    border-radius: 100%;
+}
+
+.learning-img a i:hover{
+    text-decoration: underline black;
+
+}
+
+.learning-course h3{
+    margin-top: 25px;
+}
+.learning-course h3 a{
+     font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.learning-course h3 a:hover{
+    text-decoration: underline;
+}
+
+.learning-course p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.learning-course button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 15px;
+    color: #1A73E8;
+    background-color: #ffffff;
+    border: 3px solid #185abc;
+    border-radius: 20px;
+    transition: 3s;
+    margin-bottom: 30px;
+}
+
+.learning-course button:hover{
+    border: none;
+    background-color: #FFFFFF;
+    transition: 3s;
+}
+
+.learningsection-container{
+    display: flex;
+    gap: 30px;
+}
+
+.section1{
+    padding: 40px 100px;
+}
+
+.section1-platform{
+     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section1-content{
+    text-align: justify;
+}
+
+.section1-content h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section1-content p{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 750px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section1-btn button{
+     padding: 12px 25px;
+    font-size: 15px;
+    color: #1A73E8;
+    background-color: #ffffff;
+    border: 3px solid #185abc;
+    border-radius: 20px;
+    transition: 3s;
+}
+
+.section1-btn button:hover{
+    border: none;
+    background-color: transparent;
+}
+
+.section2{
+    background-color: #f5f6f7;
+    width: 450px;
+    height: 550px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+   
+    
+}
+
+.section2-img{
+    padding-top: 60px;
+}
+
+.section2-learning h3{
+    margin-top: 25px;
+}
+.section2-learning h3 a{
+     font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #202124;
+}
+
+.section2-learning h3 a:hover{
+    text-decoration: underline;
+}
+
+.section2-learning p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section2-learning button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 15px;
+    color: #1A73E8;
+    background-color: #ffffff;
+    border: 3px solid #185abc;
+    border-radius: 20px;
+    transition: 3s;
+    margin-bottom: 30px;
+}
+
+.section2-learning button:hover{
+    border: none;
+    background-color: #f5f6f7;
+    transition: 3s;
+}
+
+.section2-container{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+/* Responsiveness */
+@media screen and (max-width:768px) {
+    .learning{
+        width: 100%;
+        padding: 20px;
+    }
+    .web-platform{
+        flex-direction: column;
+        gap: 20px;
+        text-align: justify;
+        padding: 20px;
+    }
+    /* .platform-section{
+        padding: 20px;
+    } */
+    .learningsection-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .section1{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section1-platform{
+        padding: 20px;
+    }
+
+    .section1-platform{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section2-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+    }
+    .section2-learning{
+        align-items: center;
+    }
 }
