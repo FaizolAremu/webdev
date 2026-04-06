@@ -114,9 +114,6 @@ body {
         display: none;
     }
 
-    /* .search-btn i{
-        display: block;
-    } */
     .navbar {
         padding: 5px 10px;
 
@@ -194,7 +191,7 @@ body {
 .designweb h1 {
     font-size: 64px;
     color: #202124;
-    font-weight: 700px;
+    font-weight: 700;
 
 }
 
@@ -227,6 +224,11 @@ body {
     .designweb {
         width: 100%;
         padding: 20px;
+    }
+
+    .designweb h1 {
+        font-size: 32px;
+        
     }
 
     .designweb-img img {
@@ -888,9 +890,6 @@ h1 {
         padding: 20px;
     }
 
-    /* .platform-section{
-        padding: 20px;
-    } */
     .learningsection-container {
         flex-direction: column;
         align-items: center;
@@ -956,31 +955,32 @@ h1 {
         grid-template-columns: 1fr;
     }
 
+    .form-row {
+        flex-direction: column;
+    }
+
 }
 
 @media (min-width: 768px) {
     .section2 {
         width: 48%;
-        /* 2 per row */
     }
 
     .baseline,
     .baseline2 {
         width: 48%;
-        /* 2 per row */
     }
 
     .baseline3,
     .baseline4 {
         width: 48%;
-        /* 2 per row */
     }
 
     .baseline3 {
         width: 100%;
     }
 
-     .footer-container {
+    .footer-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -988,7 +988,7 @@ h1 {
 @media (min-width: 1024px) {
     .section2 {
         width: 30%;
-        /* 3 per row */
+
     }
 
     .section2-img {
@@ -1013,7 +1013,7 @@ h1 {
         width: 100%;
     }
 
-     .footer-container {
+    .footer-container {
         grid-template-columns: repeat(4, 1fr);
     }
 
