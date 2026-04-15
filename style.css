@@ -5,8 +5,10 @@
     font-family: "Google Sans", sans-serif;
 }
 
+
 body {
     background-color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 .navbar {
